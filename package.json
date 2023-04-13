@@ -4,6 +4,7 @@
   "description": "Project",
   "main": "index.js",
   "scripts": {
+    "deploy": "gh-pages -d src/project",
     "callback": "node src/callback/challange.js"
   },
   "keywords": [
@@ -17,5 +18,8 @@
     "node-fetch": "^3.3.1",
     "xmlhttprequest": "^1.8.0"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+  }
 }
